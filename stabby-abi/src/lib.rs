@@ -25,7 +25,7 @@
     // clippy::undocumented_unsafe_blocks
 )]
 #![cfg_attr(not(feature = "std"), no_std)]
-#![cfg_attr(stabby_nightly, feature(freeze))]
+#![feature(freeze)]
 
 #[cfg(feature = "alloc-rs")]
 extern crate alloc as alloc_rs;
